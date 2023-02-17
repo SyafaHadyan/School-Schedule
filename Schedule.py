@@ -1,18 +1,18 @@
-Day = "Saturday"
+Day = "Insert day here and use sentence case"
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]
 Wednesday = ["Agama Islam", "PJOK", "Matematika Wajib", "Bahasa Inggris Minat"]
 Thursday = ["Fisika", "Bahasa Inggris Wajib", "Matematika Minat", "Prakarya", "Seni Budaya"]
 Friday = ["Fisika", "Bahasa Indonesia", "Biologi"]
-Saturday = "It's Weekend"
-Sunday = "It's Weekend"
+Saturday = "Enjoy the weekend!"
+Sunday = "Tomorrow is monday!"
 
 if Day == "Monday" or Day == "Tuesday" or Day == "Wednesday" or Day == "Thursday" or Day == "Friday":
-    print("Today's School Schedule:")
+    print("Today's school schedule:")
 
 elif Day == "Saturday" or Day == "Sunday":
-    print("No Schedule for today")
+    print("No school schedule for today")
 
 if Day == "Monday":
     for mon in Monday:
@@ -41,4 +41,4 @@ elif Day == "Sunday":
     print(Sunday)
 
 else:
-    print("Invalid Day, please insert a valid day and use sentence case")
+    print("Invalid Day Value, please insert a valid day and use sentence case")

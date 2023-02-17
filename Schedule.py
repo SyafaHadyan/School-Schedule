@@ -41,4 +41,4 @@ elif Day == "Sunday":
     print(Sunday)
 
 else:
-    print("Invalid Day Value, please insert a valid day and use sentence case")
+    print("Invalid day value, please insert a valid day and use sentence case")

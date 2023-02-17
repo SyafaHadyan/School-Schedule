@@ -7,7 +7,7 @@ Thursday = ["Fisika", "Bahasa Inggris Wajib", "Matematika Minat", "Prakarya", "S
 Friday = ["Fisika", "Bahasa Indonesia", "Biologi"]
 
 if Day == "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday":
-    print("Today's Schol Schedule:")
+    print("Today's School Schedule:")
 
 if Day == "Monday":
     for mon in Monday:

@@ -1,4 +1,4 @@
-Day = "Monday"
+Day = "Saturday"
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]
@@ -32,12 +32,10 @@ elif Day == "Friday":
         print(fri)
 
 elif Day == "Saturday":
-    for sat in Saturday:
-        print(sat)
+    print(Saturday)
 
 elif Day == "Sunday":
-    for sun in Sunday:
-        print(sun)
+    print(Sunday)
 
 else:
     print("Invalid Day, please insert a valid day")

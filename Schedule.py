@@ -8,10 +8,10 @@ Friday = ["Fisika", "Bahasa Indonesia", "Biologi"]
 Saturday = "It's Weekend"
 Sunday = "It's Weekend"
 
-if Day == "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday":
+if Day == "Monday" or Day == "Tuesday" or Day == "Wednesday" or Day == "Thursday" or Day == "Friday":
     print("Today's School Schedule:")
 
-elif Day == "Saturday" or "Sunday":
+elif Day == "Saturday" or Day == "Sunday":
     print("No Schedule for today")
 
 if Day == "Monday":

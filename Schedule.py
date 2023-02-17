@@ -1,4 +1,4 @@
-Day = "Insert day here and use sentence case"
+Day = input("Day:")
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]

@@ -1,4 +1,6 @@
-Day = input("Day:")
+Input = input("Day:")
+
+Day = Input.capitalize()
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]
@@ -41,4 +43,4 @@ elif Day == "Sunday":
     print(Sunday)
 
 else:
-    print("Invalid day value, please insert a valid day and use sentence case")
+    print("Invalid day value, please insert a valid day")

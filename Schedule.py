@@ -5,11 +5,14 @@ Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Seja
 Wednesday = ["Agama Islam", "PJOK", "Matematika Wajib", "Bahasa Inggris Minat"]
 Thursday = ["Fisika", "Bahasa Inggris Wajib", "Matematika Minat", "Prakarya", "Seni Budaya"]
 Friday = ["Fisika", "Bahasa Indonesia", "Biologi"]
-Saturday = "Weekend"
-Sunday = "Weekend"
+Saturday = "It's Weekend"
+Sunday = "It's Weekend"
 
 if Day == "Monday" or "Tuesday" or "Wednesday" or "Thursday" or "Friday":
     print("Today's School Schedule:")
+
+elif Day == "Saturday" or "Sunday":
+    print("No Schedule for today")
 
 if Day == "Monday":
     for mon in Monday:
@@ -38,4 +41,4 @@ elif Day == "Sunday":
     print(Sunday)
 
 else:
-    print("Invalid Day, please insert a valid day")
+    print("Invalid Day, please insert a valid day and use sentence case")

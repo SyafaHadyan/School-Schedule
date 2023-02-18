@@ -1,6 +1,7 @@
-Input = input("Day:")
+user_input = input("Day:")
 
-Day = Input.capitalize()
+Day = user_input.casefold()
+Day = user_input.capitalize()
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]

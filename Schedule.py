@@ -1,7 +1,6 @@
-user_input = input("Day:")
-
-Day = user_input.casefold()
-Day = user_input.capitalize()
+import datetime
+now = datetime.datetime.now()
+Day = now.strftime("%A")
 
 Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
 Tuesday = ["Matematika Minat", "Bahasa Inggris Minat", "Biologi", "Kimia", "Sejarah"]

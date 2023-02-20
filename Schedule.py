@@ -49,11 +49,7 @@ elif Day == "Friday":
 elif Day == "Saturday":
     print(Saturday)
 
-elif Day == "Sunday":
+else Day == "Sunday":
     Schedule = len(Monday)
     print(Sunday)
     print(f"{Schedule}" + " " + "Schedules tomorrow")
-
-
-else:
-    print("Invalid day value, please insert a valid day")

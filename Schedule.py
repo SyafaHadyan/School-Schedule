@@ -17,22 +17,32 @@ elif Day == "Saturday" or Day == "Sunday":
     print("No school schedule for" + " " + Day)
 
 if Day == "Monday":
+    Schedule = len(Monday)
+    print(f"{Schedule}" + " " + "Schedules")
     for mon in Monday:
         print(mon)
 
 elif Day == "Tuesday":
+    Schedule = len(Tuesday)
+    print(f"{Schedule}" + " " + "Schedules")
     for tue in Tuesday:
         print(tue)
 
 elif Day == "Wednesday":
+    Schedule = len(Wednesday)
+    print(f"{Schedule}" + " " + "Schedules")
     for wed in Wednesday:
         print(wed)
 
 elif Day == "Thursday":
+    Schedule = len(Thursday)
+    print(f"{Schedule}" + " " + "Schedules")
     for thu in Thursday:
         print(thu)
 
 elif Day == "Friday":
+    Schedule = len(Friday)
+    print(f"{Schedule}" + " " + "Schedules")
     for fri in Friday:
         print(fri)
 
@@ -40,6 +50,8 @@ elif Day == "Saturday":
     print(Saturday)
 
 elif Day == "Sunday":
+    Schedule = len(Monday)
+    print(f"{Schedule}" + " " + "Schedules tomorrow")
     print(Sunday)
 
 else:

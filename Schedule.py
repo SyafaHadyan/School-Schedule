@@ -11,10 +11,10 @@ Saturday = "Enjoy the weekend!"
 Sunday = "Tomorrow is monday!"
 
 if Day == "Monday" or Day == "Tuesday" or Day == "Wednesday" or Day == "Thursday" or Day == "Friday":
-    print("Today's school schedule:")
+    print("School schedule for" + " " + Day + ":")
 
 elif Day == "Saturday" or Day == "Sunday":
-    print("No school schedule for today")
+    print("No school schedule for" + " " + Day)
 
 if Day == "Monday":
     for mon in Monday:

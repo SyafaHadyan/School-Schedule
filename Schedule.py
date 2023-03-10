@@ -2,14 +2,44 @@ import datetime
 now = datetime.datetime.now()
 Day = now.strftime("%A")
 
-Monday = ["PPkn", "Bahasa Indonesia", "Matematika Wajib", "Kimia"]
-Tuesday = ["Matematika Minat", "Bahasa Inggris Minat",
-           "Biologi", "Kimia", "Sejarah"]
-Wednesday = ["Agama Islam", "PJOK", "Matematika Wajib", "Bahasa Inggris Minat"]
-Thursday = ["Fisika", "Bahasa Inggris Wajib",
-            "Matematika Minat", "Prakarya", "Seni Budaya"]
-Friday = ["Fisika", "Bahasa Indonesia", "Biologi"]
+Monday = [
+    "PPkn",
+    "Bahasa Indonesia",
+    "Matematika Wajib",
+    "Kimia"
+]
+
+Tuesday = [
+    "Matematika Minat",
+    "Bahasa Inggris Minat",
+    "Biologi",
+    "Kimia",
+    "Sejarah"
+]
+
+Wednesday = [
+    "Agama Islam",
+    "PJOK",
+    "Matematika Wajib",
+    "Bahasa Inggris Minat"
+]
+
+Thursday = [
+    "Fisika",
+    "Bahasa Inggris Wajib",
+    "Matematika Minat",
+    "Prakarya",
+    "Seni Budaya"
+]
+
+Friday = [
+    "Fisika",
+    "Bahasa Indonesia",
+    "Biologi"
+]
+
 Saturday = "Enjoy the weekend!"
+
 Sunday = "Tomorrow is monday!"
 
 if Day == "Monday" or Day == "Tuesday" or Day == "Wednesday" or Day == "Thursday" or Day == "Friday":
